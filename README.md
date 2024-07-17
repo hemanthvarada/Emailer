@@ -1,4 +1,4 @@
-#Emailer     
+## Emailer     
 
 This project is a simple emailer application that allows users to enter an email and send emails to anyone. The application has a frontend interface where users can input the recipient's email address and send a predefined message. The backend handles the email sending functionality.
 
