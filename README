@@ -1,6 +1,4 @@
-```
-# Emailer
-
+#Emailer         
 This project is a simple emailer application that allows users to enter an email and send emails to anyone. The application has a frontend interface where users can input the recipient's email address and send a predefined message. The backend handles the email sending functionality.
 
 ## Features
@@ -22,14 +20,14 @@ To run this project locally, follow the steps below.
 
 Clone the repository:
 
-```bash
+```shell
 git clone https://github.com/your-username/emailer.git
 cd emailer
 ```
 
 Install dependencies:
 
-```bash
+```shell
 npm install 
 ```
 
