@@ -16,8 +16,13 @@ function App() {
   }  // This Arrow function is called after the submit buton is pressed. 
   return (
     <div className="--center-all  --bg-primary --100vh ">
-      <div className="--width-500px --card --py2 --flex-center --bg-light"> 
-       <form  onSubmit={sendEmail} className="--form-control  ">
+       
+      <div className=" --p3 --card  --flex-center --bg-light --dir-column "> 
+
+       <h1 className='--width-100 --mb' >Try out the Emailer, Which will send a Email! </h1>
+       
+       <div className="--width-500px --flex-center ">
+       <form  onSubmit={sendEmail} className="--form-control">
         <input type="email" value={email} 
          placeholder="Email"
          onChange = {(e)=>setEmail(e.target.value)}
@@ -27,6 +32,9 @@ function App() {
         </button>
       </form>
       </div>
+
+      </div>
+
     </div>
   );
 }
